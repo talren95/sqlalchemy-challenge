@@ -1,10 +1,10 @@
 # sqlalchemy-challenge
 
 ## Repository Structure:
-Both codes (code1.ipynb and code2.py) will be found within the "climate" directory in the repository.
-The CSV and SQLite files (hawaii.csv and hawaii.sqlite) can be found in the "resources" folder within the same "climate" directory.
+Both codes (climate_starter.ipynb and app.py) will be found within the "climate" directory in this repository.
+The CSV and SQLite files (hawaii_measurements.csv, hawaii.csv, and hawaii.sqlite) can be found in the "resources" folder within the same "climate" directory.
 
-## Code 1 (Jupyter Notebook Code):
+## climate_starter.ipynb 1 (Jupyter Notebook Code):
 ### Data Retrieval and Visualization:
 This code primarily focuses on retrieving data from a SQLite database (hawaii.sqlite) using SQLAlchemy and visualizing it using Matplotlib.
 It imports necessary libraries like matplotlib, numpy, pandas, and datetime.
@@ -15,7 +15,7 @@ Calculates summary statistics for precipitation and temperature data.
 Finds the total number of stations and the most active station.
 Lastly, it visualizes temperature data for the most active station over the last 12 months using a histogram.
 
-## Code 2 (Python Code using Flask):
+## app.py (Python Code using Flask):
 ### Web API Setup:
 This code sets up a Flask web application to create a RESTful API for accessing the same data.
 It imports necessary Flask libraries and SQLAlchemy.
