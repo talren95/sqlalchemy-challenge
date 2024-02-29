@@ -1,5 +1,9 @@
 # sqlalchemy-challenge
 
+## Repository Structure:
+Both codes (code1.ipynb and code2.py) will be found within the "climate" directory in the repository.
+The CSV and SQLite files (hawaii.csv and hawaii.sqlite) can be found in the "resources" folder within the same "climate" directory.
+
 ## Code 1 (Jupyter Notebook Code):
 ### Data Retrieval and Visualization:
 This code primarily focuses on retrieving data from a SQLite database (hawaii.sqlite) using SQLAlchemy and visualizing it using Matplotlib.
