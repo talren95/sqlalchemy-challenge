@@ -1,5 +1,3 @@
-# sqlalchemy-challenge
-
 ## Repository Structure:
 Both codes (climate_starter.ipynb and app.py) will be found within the "climate" directory in this repository.
 The CSV and SQLite files (hawaii_measurements.csv, hawaii.csv, and hawaii.sqlite) can be found in the "resources" folder within the same "climate" directory.
