@@ -24,7 +24,8 @@ The routes include:
 /api/v1.0/<start>: Returns temperature statistics (min, max, avg) from a given start date until the end of the dataset.
 /api/v1.0/<start>/<end>: Returns temperature statistics (min, max, avg) between a given start and end date.
 The data is fetched from the SQLite database using SQLAlchemy queries, converted into appropriate formats, and returned as JSON responses.
-Summary:
+
+## Summary:
 Code 1 performs data retrieval, analysis, and visualization within a Jupyter Notebook environment.
 Code 2 sets up a Flask web application to provide access to the same data via RESTful API endpoints, enabling users to retrieve the data in JSON format through HTTP requests.
 
